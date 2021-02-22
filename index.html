@@ -6,19 +6,36 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="app"></div>  <!-- Your Entire Application will be built inside this div! -->
+    <div id="app">
+      <h1>Twiddler</h1>
+      <header><h1>Twiddler</h1></header>
+      <div id="header">
+        <h1 style="color: black;">Twiddler</h1>
+        <img src="/assets/icons/twiddler\ icon.png">
+        <h1 style="color: black;">Twiddler</h1>
+      </div>
+
+      <div id="tweets" style="background-color: black;"></div>
+      <div id="sidebar">
+        <h1>Twiddler</h1>
+        <input>
+        <h1>Twiddler</h1>
+        </input>
+      </div>
+      <h1>Twiddler</h1>
+    </div>  <!-- Your Entire Application will be built inside this div! -->
 
     <script>
-      $(document).ready(function(){
-        var $app = $('#app');
-        $app.html('');
+       $(document).ready(function(){
+        var $tweets = $('#tweets');
+        $tweets.html('');
 
         var index = streams.home.length - 1;
         while(index >= 0){
           var tweet = streams.home[index];
           var $tweet = $('<div class="tweet"></div>');
           $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($app);
+          $tweet.appendTo($tweets);
           index -= 1;
         }
 
