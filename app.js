@@ -1,5 +1,3 @@
-
-
 function timelapse(dateOfTweet) {
   var now = new Date();
   var difference;
@@ -30,6 +28,14 @@ function buildTweet(tweet, message, user) {
   var $message = $('<span class="message"></span>');
   var $footer = $('<div class="footer"></div>');
   var $handle = $('<span class="handle"></span>');
+  var $icons = $('<span class="icons"></span>');
+  for (let i = 1; i <=4; i++) {
+    var $span = $('<span class="span"></span>');
+    var $icon = $('<img src="assets/icons/icon-' + i +'.png">');
+    $icon.attr('style', 'height: 15px; wight: auto;')
+    $icon.appendTo($span);
+    $span.appendTo($icons);
+  }
   var $timestamp = $('<span class="time"></span>');
   var time = timelapse(tweet.created_at);
   $img.attr({
@@ -42,6 +48,7 @@ function buildTweet(tweet, message, user) {
   $img.appendTo($main);
   $message.appendTo($main);
   $handle.appendTo($footer);
+  $icons.appendTo($footer)
   $timestamp.appendTo($footer);
   $main.appendTo($tweet);
   $footer.appendTo($tweet);
@@ -82,33 +89,3 @@ function render() {
 }
 
 render();
-
-
-/* **************************************
- *  UI
-  * Heading
-   * title of the application.
-  * An Update Feed Button
-  * Their Home Feed, with a list view displaying each of their friends' Tweets
-  * Tweet Components, each identical in structure, complete with a:
-    * Profile Photo
-    * Username, with the format "@username"
-    * Tweet Message
-    * Human Readable Timestamp", like "2 minutes ago"
-    * Set of Four Icons:
-      * Comment
-      * Retweet
-      * Like
-      * Share
-  * An Individual User Feed, with a list view of each Tweet made by that specific user.
-  * A Home Button, allowing the user to navigate back to the Home Feed.
-
-
- UX
-
-Clicking the Update Feed button to re-render the currently displayed Feed with the most current list of Tweets.
-Clicking a friend's username inside an individual Tweet to re-render the Feed with the most current list of that specific user's Tweets.
-Clicking the Home Button to return to the Home Feed.
-Mousing over a Tweet's Comment, Retweet, Like, and Share Icons to toggle a color change while the mouse's cursor is hovering over and icon.
-
-****************************************  */

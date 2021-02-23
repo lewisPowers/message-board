@@ -18,38 +18,40 @@
             <span class="icon"><a href="http://www.facebook.com">F</a></span>
             <span class="icon"><a href="http://www.instagram.com">I</a></span>
         </div>
-    </section>
+      </section>
 
-    <div id="section">
-          <section class="sidebar">
-            <button id="update" class="btn" onclick="{render()}">Update Feed</button>
-            <div class="input">
-              <h5>Username</h5>
-              <input placeholder="Enter Username">
-            </div>
-            <div class="input">
-              <h5>Tweet Message</h5>
-              <input placeholder="Write Tweet...">
+      <div id="section">
+        <section class="sidebar">
+          <button id="update" class="btn" onclick="{render()}">Update Feed</button>
 
-            </div>
-            <button id="post" class="btn"></button>
-            <h4>Friends</h4>
-            <ul class="list friends">
-              <li class="handle" onclick="filterTweets('mracus')">@mracus</li>
-              <li class="handle" onclick="filterTweets('shawndrost')">@shawndrost</li>
-              <li class="handle" onclick="filterTweets('sharksforcheap')">@sharksforcheap</li>
-              <li class="handle" onclick="filterTweets('douglascalhoun')">@douglascalhoun</li>
-          </ul>
-          </section>
-          <section class="content">
+          <div class="input">
+            <h5>Username</h5>
+            <input placeholder="Enter Username">
+          </div>
 
+          <div class="input">
+            <h5>Tweet Message</h5>
+            <input placeholder="Write Tweet...">
+          </div>
+
+          <button id="post" class="btn"></button>
+          <h4>Friends</h4>
+          <ul class="list friends">
+            <li class="handle" onclick="filterTweets('mracus')">@mracus</li>
+            <li class="handle" onclick="filterTweets('shawndrost')">@shawndrost</li>
+            <li class="handle" onclick="filterTweets('sharksforcheap')">@sharksforcheap</li>
+            <li class="handle" onclick="filterTweets('douglascalhoun')">@douglascalhoun</li>
+        </ul>
+        </section>
+
+        <section class="content">
           <ul id="tweets" class="list">
               <li>tweet1</li>
               <li>tweet2</li>
               <li>tweet3</li>
           </ul>
+        </section>
 
-          </section>
       </div>
     </div>  <!-- Your Entire Application will be built inside this div! -->
     <script src="app.js"></script>

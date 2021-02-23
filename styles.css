@@ -1,30 +1,13 @@
-/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
-
-/* html, body, #app {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-
-} */
-
-
-/* #app {
-  background-color: green;
-  color: yellow;
-} */
-
-
 * {
   margin: 0;
 }
 
 a, h1 {
   color:crimson;
-  font-family:cursive
+  font-family:cursive;
 }
 
 h4 {
-  /* text-align: center; */
   margin: 34px 20px 0 20px;
   padding: 0 0 10px 22px;
   border-bottom: 2px solid crimson;
@@ -41,17 +24,12 @@ h4 {
   text-align: center;
 }
 
-.time {
-  font-size: smaller;
-  color: gray;
-  float: right;
-}
-
 .head {
   max-height: 120px;
   width: 100%;
   display: inline-flex;
 }
+
 .head-left {
   float: left;
   width: 70%;
@@ -86,6 +64,34 @@ h4 {
   margin-top: 30px;
 }
 
+.icons {
+  margin-left: 30%;
+  width: 200px;
+  height: 100%;
+  display: flexbox;
+  position: absolute;
+}
+
+.handle {
+  width: 120px;
+}
+
+.span:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.time {
+  font-size: smaller;
+  color: gray;
+  float: right;
+}
+
+.span {
+  width: 42px;
+  display: flexbox;
+}
+
 .input {
   margin: 20px 0 0 25px;;
 }
@@ -93,9 +99,9 @@ h4 {
 .btn {
   width: 120px;
   height: 33px;
-  background-color: crimson;
+  background-color: rgba(220, 20, 60, 0.726);
   margin: 12px 0 0 40px;
-
+  cursor: pointer;
 }
 
 #update {
@@ -111,7 +117,6 @@ h4 {
 }
 
 .content {
-  /* background-color: rgb(144, 202, 241); */
   position:relative;
   display: inline-flexbox;
   margin-left: 200px;
@@ -147,7 +152,7 @@ span {
 
 .footer {
   width: 100%; height: 24px;
-  display: 'flexbox';
+  position: relative;
 }
 
 #section {
@@ -157,17 +162,67 @@ span {
   height: 100%;
 }
 .tweet {
-  width: 100%;
+  width: 55%;
   height: 88px;
-  margin-bottom: 22px;
+  margin-bottom: 32px;
   border-left: 6px solid crimson;
   border-radius: 6px;
-  /* background-color: rgba(220, 20, 60, 0.096); */
 }
 
-@media screen and (min-width: 950px) and (max-width: 10000px) {
+@media screen and (min-width: 950px) and (max-width: 1200px) {
   .tweet {
-    max-width: 60%;
+    width: 60%;
+    margin: 0 20px 20px;
+  }
+  .icons {
     margin-left: 20%;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 949px) {
+  .tweet {
+    width: 90%;
+    margin: 0 0 20px;
+  }
+  .icons {
+    margin-left: 15%;
+  }
+  .span {
+    width: 28px;
+  }
+  #head-icon {
+    padding: 7px 0 7px 32px;
+  }
+}
+
+@media screen and (min-width: 590px) and (max-width: 650px) {
+  .tweet {
+    width: 90%;
+    margin: 0 0 20px;
+  }
+  .icons {
+    margin: 0 0 20px;;
+  }
+  .span {
+    width: 22px;
+  }
+  #head-icon {
+    padding: 2px 0 2px 22px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 589px) {
+  .tweet {
+    width: 90%;
+    margin: 0 0 20px;
+  }
+  .icons {
+    margin: 0;
+  }
+  .span {
+    width: 22px;
+  }
+  #head-icon {
+    padding: 0;
   }
 }
