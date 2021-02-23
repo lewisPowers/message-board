@@ -8,18 +8,15 @@
 } */
 
 
-#app {
-  /* background-color: green; */
-  /* color: yellow; */
-}
+/* #app {
+  background-color: green;
+  color: yellow;
+} */
 
 
 * {
   margin: 0;
 }
-/* body {
-  background-color: blueviolet;
-} */
 
 a, h1 {
   color:crimson;
@@ -32,11 +29,8 @@ a, h1 {
   display: inline-flex;
 }
 .head-left {
-  /* color:crimson; */
-  /* margin: auto; */
   float: left;
   width: 70%;
-  /* display: inline-flexbox; */
   display: table;
   height: 100%;
 }
@@ -85,14 +79,12 @@ a, h1 {
   display: inline;
   width: 200px;
   height: 100%;
-  /* margin-top: 15px; */
 }
 
 .content {
   /* background-color: rgb(144, 202, 241); */
   position:relative;
   display: inline-flexbox;
-  /* float: right; */
   margin-left: 200px;
   height: 100%;
 
@@ -106,7 +98,6 @@ span {
 .container {
   max-width: 95px;
   max-height: auto;
-  /* padding-top: 12px; */
   display: inline-block;
 }
 
