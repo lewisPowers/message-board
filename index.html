@@ -21,12 +21,14 @@
 
     <div id="section">
           <section class="sidebar">
-              <input class="input" placeholder="Search">
-              <ul class="list">
-                  <li>first</li>
-                  <li>second</li>
-                  <li>third</li>
-              </ul>
+            <button id="update" class="btn"></button>
+            <input class="input" placeholder="Search">
+            <ul class="list">
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+            </ul>
+            <button id="home" class="btn" onclick="{render()}"></button>
           </section>
           <section class="content">
 
@@ -38,27 +40,9 @@
 
           </section>
       </div>
-
-
-      <!-- <header>
-        <img src="/assets/icons/twiddler\ icon.png"> <h1>Twiddler</h1>
-      </header>
-       <div id="header">
-        <h1 style="color: black;">Twiddler</h1>
-        <img src="/assets/icons/twiddler\ icon.png" alt="picture of a bird">
-        <h1 style="color: black;">Twiddler</h1>
-      </div>
-
-      <div id="tweets" style="background-color: black;"></div>
-      <div id="sidebar">
-        <input>
-        </input>
-      </div> -->
-
-
     </div>  <!-- Your Entire Application will be built inside this div! -->
-
-    <script>
+    <script src="app.js"></script>
+    <!-- <script>
        $(document).ready(function(){
         var $tweets = $('#tweets');
         $tweets.html('');
@@ -73,6 +57,6 @@
         }
 
       });
-    </script>
+    </script> -->
   </body>
 </html>
