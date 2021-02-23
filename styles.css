@@ -23,8 +23,32 @@ a, h1 {
   font-family:cursive
 }
 
+h4 {
+  /* text-align: center; */
+  margin: 34px 20px 0 20px;
+  padding: 0 0 10px 22px;
+  border-bottom: 2px solid crimson;
+}
+
+.main {
+  display: table;
+}
+
+.message {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.time {
+  font-size: smaller;
+  color: gray;
+  float: right;
+}
+
 .head {
-  max-height: 100px;
+  max-height: 120px;
   width: 100%;
   display: inline-flex;
 }
@@ -38,7 +62,7 @@ a, h1 {
 #head-icon {
   max-width: 100%;
   height: auto;
-  padding-left: 20px;
+  padding: 7px 0 7px 44px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -63,18 +87,23 @@ a, h1 {
 }
 
 .input {
-  margin: 20px 0 0 20px;;
+  margin: 20px 0 0 25px;;
 }
 
 .btn {
   width: 120px;
   height: 33px;
   background-color: crimson;
-  margin: 22px 0 0 20px;
+  margin: 12px 0 0 40px;
+
+}
+
+#update {
+  margin: 40px 0 0 40px;
 }
 
 .sidebar {
-  /* background-color: rgb(31, 156, 214); */
+  background-color: rgba(220, 20, 60, 0.096);
   position:absolute;
   display: inline;
   width: 200px;
@@ -103,6 +132,22 @@ span {
 
 .list {
   padding-top: 20px;
+  list-style-type: none;
+}
+
+.friends {
+  line-height: 22px;
+}
+
+.handle:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%; height: 24px;
+  display: 'flexbox';
 }
 
 #section {
@@ -111,4 +156,18 @@ span {
   width: 100%;
   height: 100%;
 }
+.tweet {
+  width: 100%;
+  height: 88px;
+  margin-bottom: 22px;
+  border-left: 6px solid crimson;
+  border-radius: 6px;
+  /* background-color: rgba(220, 20, 60, 0.096); */
+}
 
+@media screen and (min-width: 950px) and (max-width: 10000px) {
+  .tweet {
+    max-width: 60%;
+    margin-left: 20%;
+  }
+}
