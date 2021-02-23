@@ -11,6 +11,7 @@
         <div class="head-left">
             <div class="container"><img id="head-icon" src="assets/icons/twiddler-icon.png" alt="picture of me"></div>
             <span id="title"><h1>Twiddler</h1></span>
+
         </div>
         <div class="head-right">
             <span class="icon"><a href="http://www.twitter.com">T</a></span>
@@ -42,21 +43,5 @@
       </div>
     </div>  <!-- Your Entire Application will be built inside this div! -->
     <script src="app.js"></script>
-    <!-- <script>
-       $(document).ready(function(){
-        var $tweets = $('#tweets');
-        $tweets.html('');
-
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div class="tweet"></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($tweets);
-          index -= 1;
-        }
-
-      });
-    </script> -->
   </body>
 </html>
