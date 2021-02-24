@@ -88,12 +88,13 @@ h4 {
 }
 
 .span {
-  width: 42px;
+  width: 22px;
   display: flexbox;
 }
 
 .input {
-  margin: 20px 0 0 25px;;
+  margin: 20px 0 0 20px;
+  width: 130px;
 }
 
 .btn {
@@ -163,26 +164,29 @@ span {
 }
 .tweet {
   width: 55%;
+  max-width: 500px;
   height: 88px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   border-left: 6px solid crimson;
+  border-bottom: 1px solid rgba(220, 20, 60, 0.377);
   border-radius: 6px;
 }
 
-@media screen and (min-width: 950px) and (max-width: 1200px) {
+@media screen and (min-width: 800px) and (max-width: 1200px) {
   .tweet {
     width: 60%;
-    margin: 0 20px 20px;
+    margin: 0 20px 40px;
   }
   .icons {
-    margin-left: 20%;
+    margin-left: 5%;
+    width: 100px;
   }
 }
 
-@media screen and (min-width: 651px) and (max-width: 949px) {
+@media screen and (min-width: 651px) and (max-width: 799px) {
   .tweet {
     width: 90%;
-    margin: 0 0 20px;
+    margin: 0 0 40px;
   }
   .icons {
     margin-left: 15%;
@@ -193,12 +197,16 @@ span {
   #head-icon {
     padding: 7px 0 7px 32px;
   }
+  .input {
+    max-width: 120px;
+    /* margin: 5px 0 5px 20px; */
+  }
 }
 
-@media screen and (min-width: 590px) and (max-width: 650px) {
+@media screen and (min-width: 550px) and (max-width: 650px) {
   .tweet {
     width: 90%;
-    margin: 0 0 20px;
+    margin: 0 0 40px;
   }
   .icons {
     margin: 0 0 20px;;
@@ -209,20 +217,46 @@ span {
   #head-icon {
     padding: 2px 0 2px 22px;
   }
+  .input {
+    max-width: 120px;
+    margin: 15px 0 5px 25px;
+  }
 }
 
-@media screen and (min-width: 0px) and (max-width: 589px) {
+@media screen and (min-width: 0px) and (max-width: 549px) {
   .tweet {
     width: 90%;
-    margin: 0 0 20px;
+    min-width: 220px;
+    margin: 0 0 40px;
+    border-bottom: 0px;
+    border-top: 1px solid rgba(220, 20, 60, 0.452);
   }
   .icons {
-    margin: 0;
+    margin-left: 5%;
+    display: inline;
+    position: absolute;
+    width: 45px;
+    height: auto;
   }
   .span {
     width: 22px;
   }
+
+  .input {
+    max-width: 100px;
+    margin: 5px 0 5px 20px;
+  }
   #head-icon {
     padding: 0;
   }
+
+  .sidebar {
+    width: 180px;
+    z-index: 1;
+  }
+
+  .content {
+    margin-left: 160px;
+  }
+
 }
