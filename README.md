@@ -1,1 +1,1 @@
-# twitter-clone
+# simple message board
