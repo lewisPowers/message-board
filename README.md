@@ -24,7 +24,10 @@
 - Click on a user in sidebar to view their 'tweeds'
 - Click 'Home' to return to all messages
 
-<img width="300" alt="Screen Shot 2022-08-13 at 5 18 39 PM" src="https://user-images.githubusercontent.com/52840741/184518013-d7a6db39-9ce2-44e2-95d2-0c5007a54307.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 18 46 PM" src="https://user-images.githubusercontent.com/52840741/184518022-8e42b66e-d7a5-4881-a8e4-070426e7807d.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 19 21 PM" src="https://user-images.githubusercontent.com/52840741/184518073-5d4efa9e-d243-40fd-8f48-91b5dbdcafe2.png">
+<img width="300" alt="Screen Shot 2022-08-13 at 5 18 39 PM" src="https://user-images.githubusercontent.com/52840741/184518013-d7a6db39-9ce2-44e2-95d2-0c5007a54307.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 18 46 PM" src="https://user-images.githubusercontent.com/52840741/184518022-8e42b66e-d7a5-4881-a8e4-070426e7807d.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 19 21 PM" src="https://user-images.githubusercontent.com/52840741/184518073-5d4efa9e-d243-40fd-8f48-91b5dbdcafe2.png"> 
+
+<img width="300" align="center" style="display: block !important; margin: 0 auto !important" alt="Screen Shot 2022-08-13 at 5 57 20 PM" src="https://user-images.githubusercontent.com/52840741/184518107-f0c155f8-8b47-44c1-8c85-a9e7f013f304.png">
+
 
 
 
