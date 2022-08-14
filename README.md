@@ -2,10 +2,10 @@
 
 ### Frontend social media application using Javascript
 
-<img width="500" alt="Screen Shot 2022-08-13 at 5 17 03 PM" src="https://user-images.githubusercontent.com/52840741/184517687-5658b405-78a1-44b1-a1d9-03adf2bee791.png">
-
 #### Data dynamically generated to create random 'tweeds' 
 - Click 'Update Feed' to get new 'tweeds' from all users
+
+<img width="500" alt="Screen Shot 2022-08-13 at 5 17 03 PM" src="https://user-images.githubusercontent.com/52840741/184517687-5658b405-78a1-44b1-a1d9-03adf2bee791.png">
 
 #### Add New User 
 - Type a username into the username inputbox
@@ -24,7 +24,8 @@
 - Click on a user in sidebar to view their 'tweeds'
 - Click 'Home' to return to all messages
 
-<img width="300" alt="Screen Shot 2022-08-13 at 5 18 39 PM" src="https://user-images.githubusercontent.com/52840741/184518013-d7a6db39-9ce2-44e2-95d2-0c5007a54307.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 18 46 PM" src="https://user-images.githubusercontent.com/52840741/184518022-8e42b66e-d7a5-4881-a8e4-070426e7807d.png">
+<img width="300" alt="Screen Shot 2022-08-13 at 5 18 39 PM" src="https://user-images.githubusercontent.com/52840741/184518013-d7a6db39-9ce2-44e2-95d2-0c5007a54307.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 18 46 PM" src="https://user-images.githubusercontent.com/52840741/184518022-8e42b66e-d7a5-4881-a8e4-070426e7807d.png"> <img width="300" alt="Screen Shot 2022-08-13 at 5 19 21 PM" src="https://user-images.githubusercontent.com/52840741/184518073-5d4efa9e-d243-40fd-8f48-91b5dbdcafe2.png">
+
 
 
 # ___Tech Used___
